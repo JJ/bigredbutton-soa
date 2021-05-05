@@ -18,6 +18,9 @@ abstract: Engineering content is starting to be possible under the twin pushes o
 
 ## Introduction
 
+
+$--Descripción del estado actual de conocimiento y desarrollos en el ámbito temático específico de la propuesta.
+
 Any kind of content with an artistic intention contains a series of patterns that constitute its *language* and that can be employed to build a work of art. These patterns are called, in the case of narrative media, *tropes* [@simpsons].
 
 A trope is a pattern or cliché used by creators to express some idea and which have been proven effective in previous works. For example, the *Hero's Journey*, in which a young hero is called to adventure, receives a weapon from an old mentor, and together with his new friends, defeats the bad guys and returns as a hero. This idea has been repeated from ancient times, as in *The Odyssey*, to more recent stories, such as *Ready Player One*.
@@ -28,6 +31,9 @@ There are available in the literature some works studying specific tropes in fil
 This is why the study of the interactions between these tropes in different media, such as films, can be useful to creators or academics in a wide variety of situations, in besides the mere descriptive analysis.
 
 There is currently a website called TVTropes.org with more than 20,000 tropes and the films in which they appear. In our previous project we downloaded the information from this website, and, in combination with movie information from the IMDB website (average rating and number of votes) we were able to create a dataset with more than 10,000 movies and more than 20,000 associated tropes.
+
+
+$--Descripción del conocimiento, idea o resultado derivado o relacionado con el proyecto anterior y que se propone para la prueba de concepto
 
 This dataset was initially used by researchers of this project in [@doi:10.1111/exsy.12525] to train a system based on neural networks to predict the rating and popularity of a movie from the tropes that appear in it. Once this model was obtained, an optimization algorithm was developed that, from a fixed set of tropes, finds the remaining tropes that can best match this set by maximizing the score or popularity.
 
@@ -43,7 +49,9 @@ However, as stated before, these works rely on the analysis of whole texts to ob
 
 To our knowledge, except for our work mentioned above, there is no other work that uses automatic analysis or machine learning to extract knowledge from the set of tropes, and automatically propose ideas to creatives, such as screenwriters.
 
+$--Identificación del problema o la necesidad a los que se dirige la prueba de concepto y cómo la aproximación que se propone podría contribuir a los mismos.
 
+$--Novedad e innovación que aportarían los resultados que se proponen valorizar; indique el estado de madurez de la propuesta (desde la idea a su aplicación).
 
 ## References
 
