@@ -20,5 +20,30 @@ abstract: Engineering content is starting to be possible under the twin pushes o
 
 Any kind of content with an artistic intention contains a series of patterns that constitute its *language* and that can be employed to build a work of art. These patterns are called, in the case of narrative media, *tropes* [@simpsons].
 
+A trope is a pattern or cliché used by creators to express some idea and which have been proven effective in previous works. For example, the *Hero's Journey*, in which a young hero is called to adventure, receives a weapon from an old mentor, and together with his new friends, defeats the bad guys and returns as a hero. This idea has been repeated from ancient times, as in *The Odyssey*, to more recent stories, such as *Ready Player One*.
+
+$--ESTO ES DEL PAPER DE PLOS. Y EN TEORIA SI USAMOS PANDOC NO DEBERIA MOSTRAR ESTE COMENTARIO
+There are available in the literature some works studying specific tropes in film and media studies. For example in [@Barrowman19film] action films tropes are discussed, including characters tropes (cop, cowboy), actions (chase, last minute rescue) and techniques (for example, camera shaking movement). More works have focused in other kind of tropes, such as the trope of the *Zombies* [@Web08Zombie], scenes that take place in a museum [@fisher2002museal],  or even as specific as the Brazilian housemaid [@Oliveira2020brazilian]. 
+
+This is why the study of the interactions between these tropes in different media, such as films, can be useful to creators or academics in a wide variety of situations, in besides the mere descriptive analysis.
+
+There is currently a website called TVTropes.org with more than 20,000 tropes and the films in which they appear. In our previous project we downloaded the information from this website, and, in combination with movie information from the IMDB website (average rating and number of votes) we were able to create a dataset with more than 10,000 movies and more than 20,000 associated tropes.
+
+This dataset was initially used by researchers of this project in [@doi:10.1111/exsy.12525] to train a system based on neural networks to predict the rating and popularity of a movie from the tropes that appear in it. Once this model was obtained, an optimization algorithm was developed that, from a fixed set of tropes, finds the remaining tropes that can best match this set by maximizing the score or popularity.
+
+Later, in the work [@simpsons] we developed a system to find the relationships that exist between these tropes, and how these combinations influence rating and popularity. To do so, we used different algorithms from the field of bibliometrics to find the different communities of tropes. In addition, using a Strategic diagram [@CoboMJ-scimat-2012] we were able to find the degree of development of each of these communities: *motor*, *transverse*, *specialized* or *emerging*.
+
+This work gained a lot of attention outside the academic environment and as a result of it we obtained different expressions of interest from different companies related to the world of cinema.
+
+$--ESTO TAMBIEN ES DEL PAPER DE PLOS
+However, there is a lack of works dealing with complex network analysis in the field of creative media such as films. In [@Waumans15topology], authors use a complex network of interactions between literary characters (specifically, the Harry Potter saga) to compute their relationships to see how they evolve throughout their story. Using text extraction algorithms from novels, they generate different social networks from the dialogues. These networks are used to measure some characteristics related to the author's style, and to the book's story. Amancio [@Amancio2016] proposed the use of co-occurrence networks to study and detect the different entities (characters or locations) and their semantic relationships, which appear in different novels. A topological analysis was applied to obtain patterns that were not possible to detect using classical methods. 
+
+
+However, as stated before, these works rely on the analysis of whole texts to obtain the relationships between entities, whereas our work is based on the mere occurrence of tropes in the different films.
+
+To our knowledge, except for our work mentioned above, there is no other work that uses automatic analysis or machine learning to extract knowledge from the set of tropes, and automatically propose ideas to creatives, such as screenwriters.
+
+
 
 ## References
+
