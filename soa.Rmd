@@ -8,11 +8,17 @@ output:
     df_print: paged
   pdf_document:
     keep_tex: yes
-bibliography: agile.bib
+bibliography: 
+  - trope-recognition.bib
+  - geneura.bib
+  - report.bib
+  
 abstract: Engineering content is starting to be possible under the twin pushes of machine learning, as well as natural (and other) language processing.
 ---
 
 ## Introduction
+
+Any kind of content with an artistic intention contains a series of patterns that constitute its *language* and that can be employed to build a work of art. These patterns are called, in the case of narrative media, *tropes* [@simpsons].
 
 
 ## References
