@@ -51,7 +51,15 @@ To our knowledge, except for our work mentioned above, there is no other work th
 
 $--Identificación del problema o la necesidad a los que se dirige la prueba de concepto y cómo la aproximación que se propone podría contribuir a los mismos.
 
+Currently, the development of artistic works, such as film scripts, is a complex task, given the large amount of subjectivity that exists in their creation, and the difficulty in predicting the quality and audience reaction. Therefore, the application to be developed in this project is intended to be of interest to the various members that are part of a creative process (for example, in the case of a film would be producers, directors, screenwriters and others). These members have to filter a large number of existing artistic works to find the most interesting for the public, either filtering scripts to shoot, or deciding on which ideas or themes to invest their money.
+
+
 $--Novedad e innovación que aportarían los resultados que se proponen valorizar; indique el estado de madurez de la propuesta (desde la idea a su aplicación).
+
+Our system mentioned above is a proof of concept that has shown promising results, allowing us to obtain a metric that indicates how good or popular a movie will be. We have also been able to obtain which thematic areas may be more interesting to focus the efforts in development. However, it still needs to be tested with professionals in the creative world. Therefore, it is necessary to develop an experimental methodology with human users who can provide feedback and guide the development to adapt this application to their needs.
+
+To this end, interviews will be conducted to learn about the workflows of the creators, and to adapt our application to this flow. We will develop and use a series of performance metrics that will allow to make the best decision at every moment in the flow. Therefore, the goal is to implement a configurable application in which users can introduce values related to the idea to be developed and automatically obtain a detailed report. 
+$--Creo que esto se puede extender mejor y vender más la moto
 
 ## References
 
