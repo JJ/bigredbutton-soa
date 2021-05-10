@@ -12,6 +12,7 @@ bibliography:
   - trope-recognition.bib
   - geneura.bib
   - report.bib
+  - bibliography-plos.bib
   
 abstract: Engineering content is starting to be possible under the twin pushes of machine learning, as well as natural (and other) language processing.
 ---
