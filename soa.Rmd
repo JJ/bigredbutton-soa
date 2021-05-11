@@ -43,7 +43,7 @@ Later, in the work [@simpsons] we developed a system to find the relationships t
 
 This work gained a lot of attention outside the academic environment and as a result of it we obtained different expressions of interest from different companies related to the world of cinema.
 
-<-- ESTO TAMBIEN ES DEL PAPER DE PLOS -->
+<!-- ESTO TAMBIEN ES DEL PAPER DE PLOS -->
 
 However, there is a lack of works dealing with complex network analysis in the field of creative media such as films. In [@Waumans15topology], authors use a complex network of interactions between literary characters (specifically, the Harry Potter saga) to compute their relationships to see how they evolve throughout their story. Using text extraction algorithms from novels, they generate different social networks from the dialogues. These networks are used to measure some characteristics related to the author's style, and to the book's story. Amancio [@Amancio2016] proposed the use of co-occurrence networks to study and detect the different entities (characters or locations) and their semantic relationships, which appear in different novels. A topological analysis was applied to obtain patterns that were not possible to detect using classical methods. 
 
@@ -55,7 +55,6 @@ To our knowledge, except for our work mentioned above, there is no other work th
 <!-- Identificación del problema o la necesidad a los que se dirige la prueba de concepto y cómo la aproximación que se propone podría contribuir a los mismos. -->
 
 Currently, the development of artistic works, such as film scripts, is a complex task, given the large amount of subjectivity that exists in their creation, and the difficulty in predicting the quality and audience reaction. Therefore, the application to be developed in this project is intended to be of interest to the various members that are part of a creative process (for example, in the case of a film would be producers, directors, screenwriters and others). These members have to filter a large number of existing artistic works to find the most interesting for the public, either filtering scripts to shoot, or deciding on which ideas or themes to invest their money.
-
 
 <!-- Novedad e innovación que aportarían los resultados que se proponen valorizar; indique el estado de madurez de la propuesta (desde la idea a su aplicación). -->
 
