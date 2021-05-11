@@ -14,7 +14,7 @@ bibliography:
   - report.bib
   - bibliography-plos.bib
   
-abstract: Engineering content is starting to be possible under the twin pushes of machine learning, as well as natural (and other) language processing.
+abstract: Engineering content is starting to be possible under the twin pushes of machine learning, as well as natural (and other) language processing. Generally, from the raw material that is the manuscript (or music score) we will need to reach a higher-level representation, so that it can be first scored or analyzed, and eventually optimized via the generation of a series of suggestions. The fact that there are multiple layers of meaning in manuscript or scores, and that different emotions are going to be transmitted, implies that there's no best, or single, way of doing it. Here we will present an overview of the different methodologies that have been used so far, and suggest current research themes and venues for future work.
 ---
 
 ## Introduction
