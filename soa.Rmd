@@ -14,6 +14,7 @@ bibliography:
   - report.bib
   - bibliography-plos.bib
   - uex.bib
+  - bigredbutton.bib
   
 abstract: Engineering content is starting to be possible under the twin pushes of machine learning, as well as natural (and other) language processing. Generally, from the raw material that is the manuscript (or music score) we will need to reach a higher-level representation, so that it can be first scored or analyzed, and eventually optimized via the generation of a series of suggestions. The fact that there are multiple layers of meaning in manuscript or scores, and that different emotions are going to be transmitted, implies that there's no best, or single, way of doing it. Here we will present an overview of the different methodologies that have been used so far, and suggest current research themes and venues for future work.
 ---
@@ -54,8 +55,6 @@ To our knowledge, except for our work mentioned above, there is no other work th
 
 <!-- AQUI IRA LO DE UEX -->
 
-In  and ...
-
 The term “trope (or tropus)” can be also considered in music, when referred to “melismas” to certain music motives, sections, even texts associated to songs, or combinations of any of them.  From the 9th century onward, music analysis has considered the evolution of forms considering tropes, although during the 20th century, and because of new types of musics -atonal and serial- the concept may be associated to unordered collection of different pitches.
 
 Every music student nowadays faces two main areas related to music analysis and composition:  on the one hand the study of harmony, and secondly, the analysis of scores.  Both require a deep understanding of composition rules, that are associated to “tropes” understanding, given their relationship to melody creation -that implies using patterns, motives...- and chord progressions, and relationship between voices in a score.
@@ -84,7 +83,14 @@ Currently, the development of artistic works, such as film scripts, is a complex
 
 Our system mentioned above is a proof of concept that has shown promising results, allowing us to obtain a metric that indicates how good or popular a movie will be or how good a student music score is or how much it deviates from what was requested and what's needed to make it follow the usual rules. We have also been able to obtain which thematic areas may be more interesting to focus the efforts in development. However, it still needs to be tested with professionals in the creative world. Therefore, it is necessary to develop an experimental methodology with human users who can provide feedback and guide the development to adapt this application to their needs.
 
-To this end, interviews will be conducted to learn about the workflows of the creators, and to adapt our application to this flow. We will develop and use a series of performance metrics that will allow to make the best decision at every moment in the flow. Therefore, the goal is to implement a configurable application in which users can introduce values related to the idea to be developed and automatically obtain a detailed report. 
+To this end, interviews will be conducted to learn about the workflows of the creators, and to adapt our application to this flow. We will develop and use a series of performance metrics that will allow to make the best decision at every moment in the flow. Therefore, the goal is to implement a configurable application in which users can introduce values related to the idea to be developed and automatically obtain a detailed report.
+
+The state of maturity of the current project is as follows
+
+* The Sharpmony application is published and in use by several music schools. However, it needs to be extended with additional computational intelligence by allowing the identification of tropes, and also reading of paper music scores, to make its use easier.
+* The framework that optimizes combination of tropes is already published [@startroper], but the extraction of tropes from manuscripts [@chang2021situation] need to be integrated.
+* Transfer learning methods and code need to be tested and implemented so that it can be used by both applications.
+* We will need better datasets for other languages, if we want to target the application to non-Spanish speaking countries.
 
 <!-- Creo que esto se puede extender mejor y vender más la moto -->
 
