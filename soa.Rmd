@@ -94,5 +94,17 @@ The state of maturity of the current project is as follows
 
 <!-- Creo que esto se puede extender mejor y vender más la moto -->
 
+## Similar initiatives and patents
+
+In general, algorithms cannot be patented in Europe; however, there are indeed a series of patents covering parts of the proposal, or in a similar field. For instance, [@narrativespatent] is about automatic characterization of scripted narratives, such as the ones used in movies, and analyzes them automatically covering a series of features. This does not go so far as to create a model that uses tropes, but is indeed a recent patent that follows a divergent route to possibly reach a similar objective; the paper by Mourchid et al. [@Mourchid18] also creates a model of a script, based in this case in character interactions, creating an actual complex network that is used to model the script. Although this kind of work would be extremely interesting for evaluation, and is in fact independent of the language, it does not cover as much ground as a model based on tropes. It could be, however, evaluated for addition within a tool that would include different kinds of models, as well as different kinds of recommendations.
+
+On the other hand, some recent startups are focused on generation of narrative; RivetAI combine man and machine as cocreators; in order to do that, basically language models are used. While this helps to generate narrative, it does not predict or model at a higher level that will help the authors take decisions that will improve the overall quality of the work.
+
+## Conclusions
+
+In this project, we need to analyze sequential art forms (movie scripts and music scores) at a level that allows the system to suggest improvements from machine learning models generated from existing scripts, trope and music features datasets, and grades, reviews, or box office income for the resulting work. In that sense, we will use automatic recognition of those features (tropes or music features), as well as a machine-learned based engines for suggestion of changes that can be used to tutor practitioners in early phases of their career, or industry insiders in every phase of the production.
+
+
+
 ## References
 
