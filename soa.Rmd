@@ -27,7 +27,7 @@ Any kind of content with an artistic intention contains a series of patterns tha
 
 A trope is a pattern or cliché used by creators to express some idea and which have been proven effective in previous works. For example, the *Hero's Journey*, in which a young hero is called to adventure, receives a weapon from an old mentor, and together with his new friends, defeats the bad guys and returns as a hero. This idea has been repeated from ancient times, as in *The Odyssey*, to more recent stories, such as *Ready Player One*.
 
-<!-- ESTO ES DEL PAPER DE PLOS. Y EN TEORIA SI USAMOS PANDOC NO DEBERIA MOSTRAR ESTE COMENTARIO -->
+<!-- ESTO ES DEL PAPER DE PLOS. Para el paper habrá que refrasearlo -->
 
 There are available in the literature some works studying specific tropes in film and media studies. For example in [@Barrowman19film] action films tropes are discussed, including characters tropes (cop, cowboy), actions (chase, last minute rescue) and techniques (for example, camera shaking movement). More works have focused in other kind of tropes, such as the trope of the *Zombies* [@Web08Zombie], scenes that take place in a museum [@fisher2002museal],  or even as specific as the Brazilian housemaid [@Oliveira2020brazilian]. 
 
@@ -48,14 +48,33 @@ This work gained a lot of attention outside the academic environment and as a re
 
 However, there is a lack of works dealing with complex network analysis in the field of creative media such as films. In [@Waumans15topology], authors use a complex network of interactions between literary characters (specifically, the Harry Potter saga) to compute their relationships to see how they evolve throughout their story. Using text extraction algorithms from novels, they generate different social networks from the dialogues. These networks are used to measure some characteristics related to the author's style, and to the book's story. Amancio [@Amancio2016] proposed the use of co-occurrence networks to study and detect the different entities (characters or locations) and their semantic relationships, which appear in different novels. A topological analysis was applied to obtain patterns that were not possible to detect using classical methods. 
 
-
 However, as stated before, these works rely on the analysis of whole texts to obtain the relationships between entities, whereas our work is based on the mere occurrence of tropes in the different films.
 
 To our knowledge, except for our work mentioned above, there is no other work that uses automatic analysis or machine learning to extract knowledge from the set of tropes, and automatically propose ideas to creatives, such as screenwriters.
 
 <!-- AQUI IRA LO DE UEX -->
 
-In [@Fernandez17CEC] and [@Miragaia21Applied]...
+In  and ...
+
+The term “trope (or tropus)” can be also considered in music, when referred to “melismas” to certain music motives, sections, even texts associated to songs, or combinations of any of them.  From the 9th century onward, music analysis has considered the evolution of forms considering tropes, although during the 20th century, and because of new types of musics -atonal and serial- the concept may be associated to unordered collection of different pitches.
+
+Every music student nowadays faces two main areas related to music analysis and composition:  on the one hand the study of harmony, and secondly, the analysis of scores.  Both require a deep understanding of composition rules, that are associated to “tropes” understanding, given their relationship to melody creation -that implies using patterns, motives...- and chord progressions, and relationship between voices in a score.
+
+The first task music students face is choral composition, that embodies a number of rules for the proper conduction of 4 voices:  Soprano, Alto, Tenor and Bass.  Beginning with a given melody, students must develop four voices that follow a set of rules that must be learned and applied.  The rules somehow encode all the knowledge and aesthetics that musicians developed along a specific period:  baroque period, classicism, jazz...  The rules embodies all the knowledge associated with proper use of different kind of tropes.
+ 
+We are mainly interested in developing tools that help students with the proper use of tropes in music, when addressing analysis of scores as well as composition.  
+
+In this later area, we may find a number of problems where artificial intelligence is of interest. Music Information Retrieval (MIR) is the area where we can find main developments, that embodies a number of problems of interest.  The leading conference in the area is organized by the International Society for Music Information Retrieval (https://www.ismir.net).  Among the main problems addressed, a number of them are of interest in this context:
+
+* Optical Music Recognition:  Students typically work in notebooks where they wrote their scores. Any tool that face the problem of trope analysis requires first to convert this scores to any avaliable music standard file (such as musicXML).
+* Analysis of the score:  The analysis require knowledge about harmony rules to be applied, understanding of the key modulation, etc.
+* Music Transcription:  Another important problem for music students is related to transcription:  how to obtain the score from a music audio.
+
+In all these areas we can find different techniques applied.  For instance, in [@Fernandez17CEC] we presented the first Cartesian Genetic Programming approach to transcription of piano music.  Although other techniques have already been applied, the flexibility of the approach, as we as its parallelization capabilities provides unique advantages.
+
+We have also recently developed the first software tool that helps students to find mistakes in the application of harmony rules in SATB composition exercises [@Miragaia21Applied].  [Sharpmony](https://sharpmony.unex.es) was that launch as a help to both students and their teachers.  Since their launch, 13 institutions and more than 1800 students are using the tool
+
+Yet, we still need a layer capable of providing OMR if we want to reach a wide public and convert Sharpmony in the tool every music student will use.  No other available tool provides simultaneously OMR, Score analysis and Transcription.  The addition of this layer would allow to go from the notebook to the analysis in a single step.
 
 <!-- Identificación del problema o la necesidad a los que se dirige la prueba de concepto y cómo la aproximación que se propone podría contribuir a los mismos. -->
 
