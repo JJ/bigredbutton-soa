@@ -13,6 +13,7 @@ bibliography:
   - geneura.bib
   - report.bib
   - bibliography-plos.bib
+  - uex.bib
   
 abstract: Engineering content is starting to be possible under the twin pushes of machine learning, as well as natural (and other) language processing. Generally, from the raw material that is the manuscript (or music score) we will need to reach a higher-level representation, so that it can be first scored or analyzed, and eventually optimized via the generation of a series of suggestions. The fact that there are multiple layers of meaning in manuscript or scores, and that different emotions are going to be transmitted, implies that there's no best, or single, way of doing it. Here we will present an overview of the different methodologies that have been used so far, and suggest current research themes and venues for future work.
 ---
@@ -51,6 +52,10 @@ However, there is a lack of works dealing with complex network analysis in the f
 However, as stated before, these works rely on the analysis of whole texts to obtain the relationships between entities, whereas our work is based on the mere occurrence of tropes in the different films.
 
 To our knowledge, except for our work mentioned above, there is no other work that uses automatic analysis or machine learning to extract knowledge from the set of tropes, and automatically propose ideas to creatives, such as screenwriters.
+
+<!-- AQUI IRA LO DE UEX -->
+
+In [@Fernandez17CEC] and [@Miragaia21Applied]...
 
 <!-- Identificación del problema o la necesidad a los que se dirige la prueba de concepto y cómo la aproximación que se propone podría contribuir a los mismos. -->
 
